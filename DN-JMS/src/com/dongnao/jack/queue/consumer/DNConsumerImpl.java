@@ -38,6 +38,7 @@ public class DNConsumerImpl implements DNConsumer {
 
 			session = connection.createSession(false, Session.CLIENT_ACKNOWLEDGE);
 
+			System.out.println("AAA");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
